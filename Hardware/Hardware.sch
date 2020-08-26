@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Hardware-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -412,4 +413,26 @@ Text Label 5500 4450 3    50   ~ 0
 GND
 Text Label 5600 4450 3    50   ~ 0
 GND
+Text Label 6100 2450 0    50   ~ 0
+SCK
+Text Label 6100 2350 0    50   ~ 0
+MISO
+Text Label 6100 2250 0    50   ~ 0
+MOSI
+Text Label 8550 5100 2    50   ~ 0
+INTERRUPT
+Text Label 6100 3550 0    50   ~ 0
+INTERRUPT
+Text Label 8550 4700 2    50   ~ 0
+SCK
+Text Label 8550 4600 2    50   ~ 0
+MISO
+Text Label 8550 4500 2    50   ~ 0
+MOSI
+Text Label 6100 1950 0    50   ~ 0
+NRF_CHSEL
+Text Label 8550 4800 2    50   ~ 0
+NRF_CHSEL
+Text Label 8550 5000 2    50   ~ 0
+3V3
 $EndSCHEMATC

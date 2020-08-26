@@ -269,12 +269,12 @@ Wire Wire Line
 $Comp
 L RF:NRF24L01_Breakout U?
 U 1 1 5F46B93B
-P 2200 6000
-F 0 "U?" H 2678 5978 50  0000 L CNN
-F 1 "NRF24L01_Breakout" H 2678 5887 50  0000 L CNN
-F 2 "RF_Module:nRF24L01_Breakout" H 2350 6600 50  0001 L CIN
-F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 2200 5900 50  0001 C CNN
-	1    2200 6000
+P 9050 4800
+F 0 "U?" H 9528 4778 50  0000 L CNN
+F 1 "NRF24L01_Breakout" H 9528 4687 50  0000 L CNN
+F 2 "RF_Module:nRF24L01_Breakout" H 9200 5400 50  0001 L CIN
+F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 9050 4700 50  0001 C CNN
+	1    9050 4800
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -353,17 +353,63 @@ Wire Notes Line
 	7350 600  7350 2950
 Text Notes 10550 2900 0    50   ~ 0
 Motor Driver
-Text Label 2200 5400 0    50   ~ 0
+Text Label 9050 4200 0    50   ~ 0
 3V3
 $Comp
 L MCU_Microchip_ATmega:ATmega8A-PU U?
 U 1 1 5F472C73
 P 5500 3050
-F 0 "U?" H 5500 4628 50  0000 C CNN
-F 1 "ATmega8A-PU" H 5500 4537 50  0000 C CNN
+F 0 "U?" H 5900 4650 50  0000 C CNN
+F 1 "ATmega8A-PU" H 5900 4550 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W7.62mm" H 5500 3050 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Microchip%208bit%20mcu%20AVR%20ATmega8A%20data%20sheet%2040001974A.pdf" H 5500 3050 50  0001 C CNN
 	1    5500 3050
 	1    0    0    -1  
 $EndComp
+Text Label 9050 5400 3    50   ~ 0
+GND
+Text Label 4900 1550 1    50   ~ 0
+3V3
+Wire Wire Line
+	5500 1550 5500 1650
+Wire Wire Line
+	5500 1550 5600 1550
+Wire Wire Line
+	5600 1550 5600 1650
+Connection ~ 5500 1550
+$Comp
+L Switch:SW_DIP_x01 SW?
+U 1 1 5F475571
+P 2750 3500
+F 0 "SW?" H 2750 3233 50  0000 C CNN
+F 1 "SW_DIP_x01" H 2750 3324 50  0000 C CNN
+F 2 "" H 2750 3500 50  0001 C CNN
+F 3 "" H 2750 3500 50  0001 C CNN
+	1    2750 3500
+	-1   0    0    1   
+$EndComp
+Text Label 4800 1950 2    50   ~ 0
+AVR_RST
+$Comp
+L Device:R R?
+U 1 1 5F475887
+P 4900 1800
+F 0 "R?" H 4700 1950 50  0000 L CNN
+F 1 "10k" H 4700 1850 50  0000 L CNN
+F 2 "" V 4830 1800 50  0001 C CNN
+F 3 "~" H 4900 1800 50  0001 C CNN
+	1    4900 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1950 4900 1950
+Connection ~ 4900 1950
+Wire Wire Line
+	4900 1650 4900 1550
+Wire Wire Line
+	4900 1550 5500 1550
+Text Label 5500 4450 3    50   ~ 0
+GND
+Text Label 5600 4450 3    50   ~ 0
+GND
 $EndSCHEMATC
