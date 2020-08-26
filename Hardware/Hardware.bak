@@ -353,27 +353,4 @@ Wire Wire Line
 Connection ~ 3300 2950
 Text Label 2700 2950 2    50   ~ 0
 GND
-$Comp
-L Connector:Conn_01x04_Male J?
-U 1 1 5F46B28A
-P 1350 3100
-F 0 "J?" H 1456 3378 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 1456 3287 50  0000 C CNN
-F 2 "" H 1350 3100 50  0001 C CNN
-F 3 "~" H 1350 3100 50  0001 C CNN
-	1    1350 3100
-	1    0    0    -1  
-$EndComp
-Text Label 1550 3000 0    50   ~ 0
-3V3
-Text Label 1550 3100 0    50   ~ 0
-GND
-Text Label 3400 3350 2    50   ~ 0
-ESP_RX
-Text Label 3400 3450 2    50   ~ 0
-ESP_TX
-Text Label 1550 3300 0    50   ~ 0
-ESP_TX
-Text Label 1550 3200 0    50   ~ 0
-ESP_RX
 $EndSCHEMATC
