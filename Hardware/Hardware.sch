@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Driver_Motor:L293D U?
 U 1 1 5F465018
-P 6950 3500
-F 0 "U?" H 6950 4678 50  0000 C CNN
-F 1 "L293D" H 6950 4587 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 7200 2750 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/l293.pdf" H 6650 4200 50  0001 C CNN
-	1    6950 3500
+P 8100 1900
+F 0 "U?" H 8100 3078 50  0000 C CNN
+F 1 "L293D" H 8100 2987 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 8350 1150 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/l293.pdf" H 7800 2600 50  0001 C CNN
+	1    8100 1900
 	1    0    0    -1  
 $EndComp
 Text Label 1300 900  2    50   ~ 0
@@ -38,7 +38,7 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b
 	1    0    0    -1  
 $EndComp
 Text Label 2900 900  0    50   ~ 0
-Vout
+5V
 Wire Wire Line
 	1300 900  1600 900 
 Wire Wire Line
@@ -80,183 +80,138 @@ Wire Wire Line
 Connection ~ 2100 1200
 Wire Wire Line
 	2100 1200 1600 1200
-Text Label 6850 2500 2    50   ~ 0
-Vout
-Text Label 7050 2500 0    50   ~ 0
+Text Label 8200 900  0    50   ~ 0
 Vin
-Text Label 6750 4300 3    50   ~ 0
+Text Label 7900 2700 3    50   ~ 0
 GND
-Text Label 6850 4300 3    50   ~ 0
+Text Label 8000 2700 3    50   ~ 0
 GND
-Text Label 7050 4300 3    50   ~ 0
+Text Label 8200 2700 3    50   ~ 0
 GND
-Text Label 7150 4300 3    50   ~ 0
+Text Label 8300 2700 3    50   ~ 0
 GND
-Text Label 6450 3300 2    50   ~ 0
+Text Label 7600 1700 2    50   ~ 0
 Vout
-Text Label 6450 3900 2    50   ~ 0
+Text Label 7600 2300 2    50   ~ 0
 Vout
 $Comp
 L Device:D D?
 U 1 1 5F465634
-P 9150 1100
-F 0 "D?" V 9104 1179 50  0000 L CNN
-F 1 "D" V 9195 1179 50  0000 L CNN
-F 2 "" H 9150 1100 50  0001 C CNN
-F 3 "~" H 9150 1100 50  0001 C CNN
-	1    9150 1100
+P 9300 1300
+F 0 "D?" V 9254 1379 50  0000 L CNN
+F 1 "D" V 9345 1379 50  0000 L CNN
+F 2 "" H 9300 1300 50  0001 C CNN
+F 3 "~" H 9300 1300 50  0001 C CNN
+	1    9300 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 5F4656EC
-P 9450 1100
-F 0 "D?" V 9404 1179 50  0000 L CNN
-F 1 "D" V 9495 1179 50  0000 L CNN
-F 2 "" H 9450 1100 50  0001 C CNN
-F 3 "~" H 9450 1100 50  0001 C CNN
-	1    9450 1100
+P 9600 1300
+F 0 "D?" V 9554 1379 50  0000 L CNN
+F 1 "D" V 9645 1379 50  0000 L CNN
+F 2 "" H 9600 1300 50  0001 C CNN
+F 3 "~" H 9600 1300 50  0001 C CNN
+	1    9600 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J?
 U 1 1 5F467DD0
-P 9800 3250
-F 0 "J?" H 9773 3130 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 9773 3221 50  0000 R CNN
-F 2 "" H 9800 3250 50  0001 C CNN
-F 3 "~" H 9800 3250 50  0001 C CNN
-	1    9800 3250
-	-1   0    0    1   
+P 10300 1250
+F 0 "J?" H 10273 1223 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 10273 1132 50  0000 R CNN
+F 2 "" H 10300 1250 50  0001 C CNN
+F 3 "~" H 10300 1250 50  0001 C CNN
+	1    10300 1250
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J?
 U 1 1 5F467E9F
-P 9800 3550
-F 0 "J?" H 9773 3430 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 9773 3521 50  0000 R CNN
-F 2 "" H 9800 3550 50  0001 C CNN
-F 3 "~" H 9800 3550 50  0001 C CNN
-	1    9800 3550
-	-1   0    0    1   
+P 10300 1900
+F 0 "J?" H 10273 1873 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 10273 1782 50  0000 R CNN
+F 2 "" H 10300 1900 50  0001 C CNN
+F 3 "~" H 10300 1900 50  0001 C CNN
+	1    10300 1900
+	-1   0    0    -1  
 $EndComp
-Text Label 9600 1100 0    50   ~ 0
+Text Label 9750 1300 0    50   ~ 0
 Vin
-Text Label 9000 1100 2    50   ~ 0
-GND
 $Comp
 L Device:D D?
 U 1 1 5F468351
-P 9150 1400
-F 0 "D?" V 9104 1479 50  0000 L CNN
-F 1 "D" V 9195 1479 50  0000 L CNN
-F 2 "" H 9150 1400 50  0001 C CNN
-F 3 "~" H 9150 1400 50  0001 C CNN
-	1    9150 1400
+P 9300 1600
+F 0 "D?" V 9254 1679 50  0000 L CNN
+F 1 "D" V 9345 1679 50  0000 L CNN
+F 2 "" H 9300 1600 50  0001 C CNN
+F 3 "~" H 9300 1600 50  0001 C CNN
+	1    9300 1600
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 5F468358
-P 9450 1400
-F 0 "D?" V 9404 1479 50  0000 L CNN
-F 1 "D" V 9495 1479 50  0000 L CNN
-F 2 "" H 9450 1400 50  0001 C CNN
-F 3 "~" H 9450 1400 50  0001 C CNN
-	1    9450 1400
+P 9600 1600
+F 0 "D?" V 9554 1679 50  0000 L CNN
+F 1 "D" V 9645 1679 50  0000 L CNN
+F 2 "" H 9600 1600 50  0001 C CNN
+F 3 "~" H 9600 1600 50  0001 C CNN
+	1    9600 1600
 	-1   0    0    1   
 $EndComp
-Text Label 9600 1400 0    50   ~ 0
+Text Label 9750 1600 0    50   ~ 0
 Vin
-Text Label 9000 1400 2    50   ~ 0
-GND
 $Comp
 L Device:D D?
 U 1 1 5F4686E9
-P 9150 1700
-F 0 "D?" V 9104 1779 50  0000 L CNN
-F 1 "D" V 9195 1779 50  0000 L CNN
-F 2 "" H 9150 1700 50  0001 C CNN
-F 3 "~" H 9150 1700 50  0001 C CNN
-	1    9150 1700
+P 9300 1950
+F 0 "D?" V 9254 2029 50  0000 L CNN
+F 1 "D" V 9345 2029 50  0000 L CNN
+F 2 "" H 9300 1950 50  0001 C CNN
+F 3 "~" H 9300 1950 50  0001 C CNN
+	1    9300 1950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 5F4686F0
-P 9450 1700
-F 0 "D?" V 9404 1779 50  0000 L CNN
-F 1 "D" V 9495 1779 50  0000 L CNN
-F 2 "" H 9450 1700 50  0001 C CNN
-F 3 "~" H 9450 1700 50  0001 C CNN
-	1    9450 1700
+P 9600 1950
+F 0 "D?" V 9554 2029 50  0000 L CNN
+F 1 "D" V 9645 2029 50  0000 L CNN
+F 2 "" H 9600 1950 50  0001 C CNN
+F 3 "~" H 9600 1950 50  0001 C CNN
+	1    9600 1950
 	-1   0    0    1   
 $EndComp
-Text Label 9600 1700 0    50   ~ 0
+Text Label 9750 1950 0    50   ~ 0
 Vin
-Text Label 9000 1700 2    50   ~ 0
-GND
 $Comp
 L Device:D D?
 U 1 1 5F4686F9
-P 9150 2000
-F 0 "D?" V 9104 2079 50  0000 L CNN
-F 1 "D" V 9195 2079 50  0000 L CNN
-F 2 "" H 9150 2000 50  0001 C CNN
-F 3 "~" H 9150 2000 50  0001 C CNN
-	1    9150 2000
+P 9300 2250
+F 0 "D?" V 9254 2329 50  0000 L CNN
+F 1 "D" V 9345 2329 50  0000 L CNN
+F 2 "" H 9300 2250 50  0001 C CNN
+F 3 "~" H 9300 2250 50  0001 C CNN
+	1    9300 2250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D D?
 U 1 1 5F468700
-P 9450 2000
-F 0 "D?" V 9404 2079 50  0000 L CNN
-F 1 "D" V 9495 2079 50  0000 L CNN
-F 2 "" H 9450 2000 50  0001 C CNN
-F 3 "~" H 9450 2000 50  0001 C CNN
-	1    9450 2000
+P 9600 2250
+F 0 "D?" V 9554 2329 50  0000 L CNN
+F 1 "D" V 9645 2329 50  0000 L CNN
+F 2 "" H 9600 2250 50  0001 C CNN
+F 3 "~" H 9600 2250 50  0001 C CNN
+	1    9600 2250
 	-1   0    0    1   
 $EndComp
-Text Label 9600 2000 0    50   ~ 0
+Text Label 9750 2250 0    50   ~ 0
 Vin
-Text Label 9000 2000 2    50   ~ 0
-GND
-Text Label 7450 2900 0    50   ~ 0
-M1_1
-Text Label 7450 3100 0    50   ~ 0
-M1_2
-Text Label 9300 1100 1    50   ~ 0
-M1_1
-Text Label 9300 1400 1    50   ~ 0
-M1_2
-Text Label 7450 3500 0    50   ~ 0
-M2_1
-Text Label 7450 3700 0    50   ~ 0
-M2_2
-Text Label 9300 1700 1    50   ~ 0
-M2_1
-Text Label 9300 2000 1    50   ~ 0
-M2_2
-Text Label 9600 3150 2    50   ~ 0
-M1_1
-Text Label 9600 3250 2    50   ~ 0
-M1_2
-Text Label 9600 3450 2    50   ~ 0
-M2_1
-Text Label 9600 3550 2    50   ~ 0
-M2_2
-$Comp
-L RF_Module:ESP-WROOM-02 U?
-U 1 1 5F4698E4
-P 3900 3250
-F 0 "U?" H 3900 4028 50  0000 C CNN
-F 1 "ESP-WROOM-02" H 3900 3937 50  0000 C CNN
-F 2 "RF_Module:ESP-WROOM-02" H 4500 2700 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/0c-esp-wroom-02_datasheet_en.pdf" H 3950 4750 50  0001 C CNN
-	1    3900 3250
-	1    0    0    -1  
-$EndComp
 $Comp
 L Regulator_Linear:AMS1117 U?
 U 1 1 5F469AAD
@@ -268,8 +223,6 @@ F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 2200 1550 50  0001 C C
 	1    2100 1800
 	1    0    0    -1  
 $EndComp
-Text Label 1300 1800 2    50   ~ 0
-Vout
 Text Label 2100 2250 3    50   ~ 0
 GND
 Wire Wire Line
@@ -313,67 +266,150 @@ Wire Wire Line
 	2100 2100 2650 2100
 Wire Wire Line
 	2100 2100 2100 2250
-Text Label 3900 3850 3    50   ~ 0
+$Comp
+L RF:NRF24L01_Breakout U?
+U 1 1 5F46B93B
+P 9050 4800
+F 0 "U?" H 9528 4778 50  0000 L CNN
+F 1 "NRF24L01_Breakout" H 9528 4687 50  0000 L CNN
+F 2 "RF_Module:nRF24L01_Breakout" H 9200 5400 50  0001 L CIN
+F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 9050 4700 50  0001 C CNN
+	1    9050 4800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	950  550  950  2550
+Wire Notes Line
+	950  2550 3350 2550
+Wire Notes Line
+	3350 2550 3350 550 
+Wire Notes Line
+	3350 550  950  550 
+Text Notes 1050 2500 0    50   ~ 0
+Power Input Section
+Text Label 9150 2250 2    50   ~ 0
 GND
-Text Label 3900 2650 0    50   ~ 0
+Text Label 9150 1950 2    50   ~ 0
+GND
+Text Label 9150 1600 2    50   ~ 0
+GND
+Text Label 9150 1300 2    50   ~ 0
+GND
+Wire Wire Line
+	8600 1300 8600 1050
+Wire Wire Line
+	8600 1050 9450 1050
+Wire Wire Line
+	9450 1050 9450 1300
+Connection ~ 9450 1300
+Wire Wire Line
+	8600 1500 9450 1500
+Wire Wire Line
+	9450 1500 9450 1600
+Connection ~ 9450 1600
+Wire Wire Line
+	9450 1950 9450 1800
+Wire Wire Line
+	9450 1800 8600 1800
+Wire Wire Line
+	8600 1800 8600 1900
+Connection ~ 9450 1950
+Wire Wire Line
+	8600 2100 9450 2100
+Wire Wire Line
+	9450 2100 9450 2250
+Connection ~ 9450 2250
+Wire Wire Line
+	9450 1050 10100 1050
+Wire Wire Line
+	10100 1050 10100 1250
+Connection ~ 9450 1050
+Wire Wire Line
+	10100 1350 10100 1500
+Wire Wire Line
+	10100 1500 9450 1500
+Connection ~ 9450 1500
+Wire Wire Line
+	9450 1800 10100 1800
+Wire Wire Line
+	10100 1800 10100 1900
+Connection ~ 9450 1800
+Wire Wire Line
+	10100 2000 10100 2100
+Wire Wire Line
+	10100 2100 9450 2100
+Connection ~ 9450 2100
+Text Label 1300 1800 2    50   ~ 0
+5V
+Text Label 8000 900  2    50   ~ 0
+5V
+Wire Notes Line
+	7350 2950 11100 2950
+Wire Notes Line
+	11100 2950 11100 600 
+Wire Notes Line
+	11100 600  7350 600 
+Wire Notes Line
+	7350 600  7350 2950
+Text Notes 10550 2900 0    50   ~ 0
+Motor Driver
+Text Label 9050 4200 0    50   ~ 0
 3V3
-Text Label 3400 2600 1    50   ~ 0
+$Comp
+L MCU_Microchip_ATmega:ATmega8A-PU U?
+U 1 1 5F472C73
+P 5500 3050
+F 0 "U?" H 5900 4650 50  0000 C CNN
+F 1 "ATmega8A-PU" H 5900 4550 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W7.62mm" H 5500 3050 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Microchip%208bit%20mcu%20AVR%20ATmega8A%20data%20sheet%2040001974A.pdf" H 5500 3050 50  0001 C CNN
+	1    5500 3050
+	1    0    0    -1  
+$EndComp
+Text Label 9050 5400 3    50   ~ 0
+GND
+Text Label 4900 1550 1    50   ~ 0
 3V3
 Wire Wire Line
-	3400 2600 3400 2650
+	5500 1550 5500 1650
+Wire Wire Line
+	5500 1550 5600 1550
+Wire Wire Line
+	5600 1550 5600 1650
+Connection ~ 5500 1550
 $Comp
 L Switch:SW_DIP_x01 SW?
-U 1 1 5F46A946
-P 3000 2950
-F 0 "SW?" H 2800 3200 50  0000 C CNN
-F 1 "SW_DIP_x01" H 2850 3100 50  0000 C CNN
-F 2 "" H 3000 2950 50  0001 C CNN
-F 3 "" H 3000 2950 50  0001 C CNN
-	1    3000 2950
-	1    0    0    -1  
+U 1 1 5F475571
+P 2750 3500
+F 0 "SW?" H 2750 3233 50  0000 C CNN
+F 1 "SW_DIP_x01" H 2750 3324 50  0000 C CNN
+F 2 "" H 2750 3500 50  0001 C CNN
+F 3 "" H 2750 3500 50  0001 C CNN
+	1    2750 3500
+	-1   0    0    1   
 $EndComp
+Text Label 4800 1950 2    50   ~ 0
+AVR_RST
 $Comp
 L Device:R R?
-U 1 1 5F46AA06
-P 3300 2800
-F 0 "R?" H 3150 2850 50  0000 L CNN
-F 1 "R" H 3150 2750 50  0000 L CNN
-F 2 "" V 3230 2800 50  0001 C CNN
-F 3 "~" H 3300 2800 50  0001 C CNN
-	1    3300 2800
+U 1 1 5F475887
+P 4900 1800
+F 0 "R?" H 4700 1950 50  0000 L CNN
+F 1 "10k" H 4700 1850 50  0000 L CNN
+F 2 "" V 4830 1800 50  0001 C CNN
+F 3 "~" H 4900 1800 50  0001 C CNN
+	1    4900 1800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 2950 3400 2950
+	4800 1950 4900 1950
+Connection ~ 4900 1950
 Wire Wire Line
-	3300 2650 3400 2650
-Connection ~ 3400 2650
+	4900 1650 4900 1550
 Wire Wire Line
-	3400 2650 3400 2850
-Connection ~ 3300 2950
-Text Label 2700 2950 2    50   ~ 0
+	4900 1550 5500 1550
+Text Label 5500 4450 3    50   ~ 0
 GND
-$Comp
-L Connector:Conn_01x04_Male J?
-U 1 1 5F46B28A
-P 1350 3100
-F 0 "J?" H 1456 3378 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 1456 3287 50  0000 C CNN
-F 2 "" H 1350 3100 50  0001 C CNN
-F 3 "~" H 1350 3100 50  0001 C CNN
-	1    1350 3100
-	1    0    0    -1  
-$EndComp
-Text Label 1550 3000 0    50   ~ 0
-3V3
-Text Label 1550 3100 0    50   ~ 0
+Text Label 5600 4450 3    50   ~ 0
 GND
-Text Label 3400 3350 2    50   ~ 0
-ESP_RX
-Text Label 3400 3450 2    50   ~ 0
-ESP_TX
-Text Label 1550 3300 0    50   ~ 0
-ESP_TX
-Text Label 1550 3200 0    50   ~ 0
-ESP_RX
 $EndSCHEMATC
