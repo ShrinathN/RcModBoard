@@ -530,4 +530,14 @@ Text Label 5300 4850 2    50   ~ 0
 LED3
 Text Label 5300 5250 2    50   ~ 0
 LED4
+Wire Notes Line
+	4850 5450 6350 5450
+Wire Notes Line
+	6350 5450 6350 3550
+Wire Notes Line
+	6350 3550 4850 3550
+Wire Notes Line
+	4850 3550 4850 5450
+Text Notes 6150 5400 0    50   ~ 0
+LEDs
 $EndSCHEMATC
