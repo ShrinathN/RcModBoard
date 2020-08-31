@@ -540,4 +540,19 @@ Wire Notes Line
 	4850 3550 4850 5450
 Text Notes 6150 5400 0    50   ~ 0
 LEDs
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5F4D87DB
+P 5200 2200
+F 0 "J3" H 5306 2378 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5306 2287 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 5200 2200 50  0001 C CNN
+F 3 "~" H 5200 2200 50  0001 C CNN
+	1    5200 2200
+	1    0    0    -1  
+$EndComp
+Text Label 5400 2200 0    50   ~ 0
+Vin
+Text Label 5400 2300 0    50   ~ 0
+GND
 $EndSCHEMATC
